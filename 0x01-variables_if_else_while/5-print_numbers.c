@@ -7,7 +7,7 @@
  *
  * Description: using main function
  * this program ...
- * Rfeturen: 0 (success/correct)
+ * Return: 0 (success/correct)
  */
 
 /*this is your main discription */
