@@ -10,6 +10,7 @@
  * Rfeturen: 0 (success/correct)
  */
 
+/*this is your main discription */
 int main(void)
 {
 	int i;
