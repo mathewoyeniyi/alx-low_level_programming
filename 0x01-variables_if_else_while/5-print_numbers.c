@@ -7,7 +7,7 @@
  *
  * Description: using main function
  * this program ...
- * Rfeturen: 0
+ * Rfeturen: 0 (success/correct)
  */
 
 int main(void)
