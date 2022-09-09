@@ -6,6 +6,7 @@
  * main - Entry point
  *
  * Description: using main function
+ * this program ...
  * Rfeturen: 0
  */
 
