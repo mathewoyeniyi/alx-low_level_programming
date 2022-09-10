@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int i, p, j;
+	int i, p, m;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -23,7 +23,7 @@ int main(void)
 					putchar(p + '0');
 					putchar(m + '0');
 					{
-						if (j != 7)
+						if (i != 7)
 						{
 							putchar(',');
 							putchar(' ');
