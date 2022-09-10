@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Discription: 'the program dis'
+ * Discription: 'the program..'
  * Return: 0 Aways (success)
  */
 
@@ -23,7 +23,7 @@ int main(void)
 				putchar(p + '0');
 				putchar(m + '0');
 			{
-					if (i != 7)
+			if (i != 7)
 						{
 							putchar(',');
 							putchar(' ');
