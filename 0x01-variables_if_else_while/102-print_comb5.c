@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int i, j;
+	int i, p;
 
 	for (i = 0; i < 100; i++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 			if (p > i)
 			{
 				putchar((i / 10) + '0');
-				putchar((i % 10) + '0');purchar(' ');
+				putchar((i % 10) + '0');putchar(' ');
 				putchar((p / 10) + '0');
 				putchar((p % 10) + '0');
 				if (i != 98)
