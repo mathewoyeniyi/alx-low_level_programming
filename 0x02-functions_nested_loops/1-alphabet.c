@@ -3,7 +3,7 @@
 /**
  * main - point
  *
- * Prints the alphabet, in lowercase, followed by a new line.
+ * description: alphabet in lowercase, followed by a new line.
  * Return: 0 Always
  */
 
