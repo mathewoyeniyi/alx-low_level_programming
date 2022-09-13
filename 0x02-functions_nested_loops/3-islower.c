@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _islower - function that checks for lower abc
+ * _islower - function that checks for lower abc
  *
  * Return: 0 Always
  */
