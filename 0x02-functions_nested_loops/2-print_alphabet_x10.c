@@ -8,10 +8,9 @@
 
 void print_alphabet_x10(void)
 {
-	char c;
-	int i;
+	char c, i;
 
-	if (i = 0; i <= 9; c++)
+	if (i = 0; i <= 9; i++)
 	{
 		if (c = 'a'; c <= 'z'; c++)
 		{
