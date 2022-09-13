@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - no argument
+ * main - point
  *
- * Description -  prints _putchar, followed by a new line.
+ * Description -Write a program that prints _putchar, followed by a new line.
  * Return: 0 Always
  */
 
@@ -17,5 +17,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-return (0);
+
+	return (0);
 }
+
