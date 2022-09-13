@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check for alphabet charater
+ * _isalpha - check for alphabet charater
  *
  * @c: alphabet to pass to 4-isalpha.c
  *
