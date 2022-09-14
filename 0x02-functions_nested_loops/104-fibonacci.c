@@ -28,5 +28,6 @@ int main(void)
 		 t0 = t1;
 		 t1 = s;
 	}
+	printf("\n";
 	return (0);
 }
