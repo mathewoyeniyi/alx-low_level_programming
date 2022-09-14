@@ -13,14 +13,13 @@ int main(void)
 	unsigned long int t0 = 0, t1 = 1, s;
 	int i;
 
-	for (i = 1; i<= 98; i++)
+	for (i = 1; i <= 98; i++)
 	{
 		s = t0 + t1;
-
-		 if (i != 98)
-		 {
+		if (i != 98)
+		{
 			 printf("%lu\n, ", s);
-		 }
+		}
 		 else
 		 {
 			 printf("%lu\n", s);
