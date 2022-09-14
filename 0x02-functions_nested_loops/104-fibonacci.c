@@ -19,7 +19,7 @@ int main(void)
 
 		 if (i != 98)
 		 {
-			 printf("%lu, ", s);
+			 printf("%lu\n, ", s);
 		 }
 		 else
 		 {
@@ -28,6 +28,5 @@ int main(void)
 		 t0 = t1;
 		 t1 = s;
 	}
-	printf("\n";
 	return (0);
 }
