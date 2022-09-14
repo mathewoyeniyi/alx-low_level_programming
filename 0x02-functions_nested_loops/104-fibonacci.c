@@ -18,12 +18,12 @@ int main(void)
 		s = t0 + t1;
 		if (i != 98)
 		{
-			 printf("%lu\n, ", s);
+			 printf("%lu, ", s);
 		}
-		 else
-		 {
-			 printf("%lu\n", s);
-		 }
+	 else
+	 {
+		 printf("%lu\n", s);
+	 }
 		 t0 = t1;
 		 t1 = s;
 	}
