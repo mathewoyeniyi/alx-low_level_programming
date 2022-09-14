@@ -30,13 +30,13 @@ void print_times_table(int n)
 				else if (d >= 10 && d <= 99)
 				{
 					_putchar(32);
-					_putchar((d / 10) % 10) + '0');
+					_putchar(((d / 10) % 10) + '0');
 					_putchar((d % 10) + '0');
 				}
 				else
 				{
 					_putchar((d / 100) + '0');
-					_putchar((d / 10) % 10) + '0');
+					_putchar(((d / 10) % 10) + '0');
 					_putchar((d % 10) + '0');
 				}
 				if (b != n)
