@@ -5,7 +5,7 @@
  * number 612852475143, followed by a new line.
  *
  *
- * Retun: Always 0.
+ * Return: Always 0.
  */
 
 int main(void)
