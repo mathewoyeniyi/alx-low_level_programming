@@ -12,10 +12,7 @@ void print_numbers(void)
 
 	for (digits = '0'; digits <= '9'; digits++)
 	{
-		if (digits != '2' && digits != '4')
-		{
-			_putchar(digits);
-		}
+		_putchar(digits);
 	}
 	_putchar('\n');
 }
