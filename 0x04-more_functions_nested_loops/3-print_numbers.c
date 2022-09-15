@@ -14,7 +14,7 @@ void print_numbers(void)
 	{
 		if (digits != '2' && digits != '4')
 		{
-		_putchar(digits);
+			_putchar(digits);
 		}
 	}
 	_putchar('\n');
