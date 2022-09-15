@@ -2,18 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _isupper - If is uppercase return 1, if not return 0
  *
+ * @c: this is th entry
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
+	if (c >= 'A') && (c >= 'Z')
+	{
+		return (1);
+	}
 	return (0);
 }
