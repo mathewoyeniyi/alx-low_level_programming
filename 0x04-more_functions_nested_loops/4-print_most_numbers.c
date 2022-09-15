@@ -3,6 +3,7 @@
 /**
  * print_most_numbers - Prints numbers "0" to "9", except 2 and 4
  *
+ *
  * Return: Always 0.
  */
 
@@ -12,7 +13,7 @@ void print_most_numbers(void)
 
 	for (digits = '0'; digits <= '9'; digits++)
 	{
-		if (digits != '9' && digits != '4')
+		if (digits != '2' && digits != '4')
 		{
 			_putchar(digits);
 		}
