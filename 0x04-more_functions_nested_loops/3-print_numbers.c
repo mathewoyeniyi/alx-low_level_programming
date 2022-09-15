@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (digits = '0'; digits <= '9'; digits++)
 	{
-		_putchar(digit)
+		_putchar(digit);
 	}
 	_putchar('\n');
 }
