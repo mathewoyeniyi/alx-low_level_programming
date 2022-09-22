@@ -4,43 +4,45 @@
 /**
  * print_buffer - Prints a buffer
  * @c: buffer to print
- * @s: bytes of buffer to print
- * @l: line of buffer to print
+ * @b: bytes of buffer to print
+ * @size: line of buffer to print
  *
  * Return: void
  */
 
 void print_buffer(char *b, int size);
 {
-	int byte, index;
+	int i = 0, j;
 
-	for (byte = 0; byte < size; byte += 10)
+	if (size < 0)
 	{
-		printf("%08x: ", byte);
-
-		for (index = 0; index < 10; index++)
-		{
-			if ((index + byte) >= size)
-				printf("  ");
-			else
-				printf("%02x", *(b + index + byte));
-			if ((index % 2) != 0 && index != 0)
-				printf(" ");
-		}
-		for (index = 0; index < 10; index++)
-		{
-			if ((index + byte) >= size)
-				break;
-			else if (*(b + index + byte) >= 31 &&
-					*(b + index + byte) <= 126)
-				printf("%c", *(b + index + byte));
-			else
-				printf(".");
-		}
-		if (byte >= size)
-			continue;
-		printf("\n");
+		printf('\n');
+		return;
 	}
-	if (size <= 0)
-		printf("\n");
-}
+
+	while (i < size)
+	{
+		if (i % 10 == 0)
+			printf("%08x: ", i);
+		for (j = i; j < i + 9; j += 2)
+		{
+			if ((j < size) && ((j + 1) < size))
+				printf("%02x%02x: ", b[j], b[j + 1]);
+			else
+			{
+				while (++j <= i + 10)
+					printf(" ");
+				printf(" ");
+			}
+		}
+		for (j = i; j < i + 9 && j < size; j++)
+		{
+			if (b[j] >= 32 && b[j] <= 126)
+				printf("%c", b[j]);
+			else
+				ptintf(" ");
+		}
+		printf('\n');
+		i += 10;
+	}
+
