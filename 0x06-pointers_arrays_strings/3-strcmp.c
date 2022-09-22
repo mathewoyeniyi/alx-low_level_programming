@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * _strncpy - copies a string
- * @dest: point to destinatin
- * @src: string to copy
- * @n: number of bytes to copy
- * Return: @dest
+ * _strcmp - compare 2 strings
+ * @s1: first string
+ * @s2: second string
+ * Return: an integer as difference of last character
  *
  */
 
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	int i;
+	int i = 0, diff = 0;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
-	for (; i < n; i++)
-		dest[i] = '\0';
-	return (dest);
+	for (; s1[i] == s2[i] && s1[i] != '\0'; i++)
+		;
+	diff = s1[i] - s2[i];
+	return (diff);
 }
