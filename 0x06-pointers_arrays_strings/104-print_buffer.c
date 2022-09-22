@@ -3,13 +3,14 @@
 
 /**
  * print_buffer - Prints a buffer
- * @b: char
- * @size: int
- * Return:void
+ * @c: buffer to print
+ * @s: bytes of buffer to print
+ * @l: line of buffer to print
  *
+ * Return: void
  */
 
-void print_line(char *c, int s, int l)
+void print_line(char *c, int j, int k)
 {
 	int j, k;
 
