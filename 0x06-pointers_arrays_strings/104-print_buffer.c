@@ -10,7 +10,7 @@
  * Return: void
  */
 
-void print_line(char *c, int j, int k)
+void print_line(char *c, int s, int l)
 {
 	int j, k;
 
@@ -18,6 +18,7 @@ void print_line(char *c, int j, int k)
 	{
 		if (j <= s)
 			printf("%02x", c[l * 10 + j]);
+
 		else
 			printf("  ");
 		if (j % 2)
