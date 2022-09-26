@@ -1,20 +1,27 @@
+/*
+ * File: 0-memset.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
 
 /**
  * _memset - fill memory with a constant byte
- * @s:char
- * @b:char
- * @n:unsigned int
- * Return:char
+ * @s: char
+ * @b: char
+ * @n: unsigned int
+ * Return: A pointer to the filled memory area @s.
  *
  */
 
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int c, size_t n)
 {
-	unsigned int i;
+	unsigned int index;
+	unsigned char *memory = s, value = c;
 
-	for (i = 0; i < n; i++)
-		s[i] = b;
+	for (index = 0; index < n; index++)
+		memory[index] = value;
 
-	return (s);
+	return (memory);
+}
 
