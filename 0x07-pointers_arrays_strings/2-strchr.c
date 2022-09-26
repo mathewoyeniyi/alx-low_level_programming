@@ -15,7 +15,6 @@ char *_strchr(char *s, char c)
 		{
 			break;
 		}
-	}
-	while (*s++);
+	}	while (*s++);
 	return (s);
 }
