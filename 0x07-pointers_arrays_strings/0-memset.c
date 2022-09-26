@@ -7,18 +7,20 @@
  *
  * @s: This is the output and the return
  * @b: This is the this is the input string
+ * @n:unsigned int
  *
- * Return: A pointer to the memory area s
+ * Return: car
  *
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int count;
+	unsigned int i;
 
 	for (count = 0; count < n ; count++)
 	{
-		s[count] = b;
+		for (i = 0; i < n; i++)
+			s[i] = b;
 	}
 	return (s);
 }
