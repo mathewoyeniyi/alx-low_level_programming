@@ -61,7 +61,8 @@ char **strtow(char *str)
 			{
 				for (k = 0; k < ch; k++)
 					free(x[k]);
-				free(x[n - 1]);free(x);
+				free(x[n - 1]);
+				free(x);
 				return (NULL);
 			}
 			for (l = 0; l < j; l++)
